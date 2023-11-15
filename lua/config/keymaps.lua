@@ -7,8 +7,10 @@ local set = vim.keymap.set
 -- Undo with U
 set("n", "U", ":redo<CR>")
 
+-- Close tabs with Ctrl + w
+set("n", "<C-w>", ":q<CR>")
+
 -- Scroll Up and Down with PageUp and PageDown
 local lines = 10
-
 set("n", "<PageUp>", lines .. "k")
 set("n", "<PageDown>", lines .. "j")

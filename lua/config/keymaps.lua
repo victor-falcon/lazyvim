@@ -8,7 +8,7 @@ local set = vim.keymap.set
 set("n", "U", ":redo<CR>")
 
 -- Close tabs with Ctrl + w
-set("n", "<C-w>", ":bw<CR>")
+set("n", "<C-w>", ":bd<CR>")
 
 -- Scroll Up and Down with PageUp and PageDown
 local lines = 10
